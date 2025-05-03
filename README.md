@@ -1,18 +1,41 @@
 # hmspush-huaweituisong  
-添加HMS Push 华为推送所需的软件  
-  
-    FCM连接请使用支持FCM的国内系统和对应科学软件，建议 Clash / Clash Verge / Clash Meta类  
 
+## 添加 HMS Push 华为推送所需的软件                              ——————以下设置操作所需时间约 10min————
 
-进入Clash 1️⃣点击设置---网络全部勾选（出现应用无法联网可尝试关闭此界面的允许IPv6开关）
-          2️⃣设置——覆写——Hosts——右上角+号————键填写mtalk.google.com，值填写108.250.10.188————以此类推，添加三四个即可，测试通过的是    mtalk.google.com  108.250.10.188  、    alt5-mtalk.google.com   142.250.10.188  、    alt7-mtalk.google.com  64.233.177.188  
-          3️⃣添加完成后点击确认
+### FCM 连接设置说明  
+请使用支持 FCM 的国内系统和对应科学软件，建议使用：  
+- Clash  
+- Clash Verge  
+- Clash Meta 类工具  
 
+#### 示例设置（以 Clash 为例）  
+1. 进入 Clash 设置  
+   - 点击 **设置 → 网络**，将所有选项勾选（若应用无法联网，可尝试关闭「允许 IPv6」）  
+2. 设置 Hosts  
+   - 点击 **设置 → 覆写 → Hosts → 右上角 +**  
+   - 添加以下条目（键为域名，值为 IP）  
+     - `mtalk.google.com` → `108.250.10.188`  
+     - `alt5-mtalk.google.com` → `142.250.10.188`  
+     - `alt7-mtalk.google.com` → `64.233.177.188`  
+   - 添加三至四条即可，然后点击确认  
+3. 设置完成后即可测试连接  
 
-对三星OneUI5/6/7 1️⃣绕过国行FCM检测，额外点击设置————网络——访问控制模式（选择仅允许已选择的应用）————点击最下面访问控制应用包列表（搜索添加Android系统（android）、com.samsung.android.sskds、com.android.settings）三个软件———
-                 2️⃣—————开启VPN规则模式——————即可开启全局FCM 科学上网不断可一直连接外网FCM通知 国内应用可走国内网络不消耗VPN流量和电量 隐藏Clash通知可实现无感出国
+### 三星 OneUI 5 / 6 / 7 特殊设置  
+1. 绕过国行 FCM 检测：  
+   - **设置 → 网络 → 访问控制模式**，选择「仅允许已选择的应用」  
+   - 点击最下面的「访问控制应用包列表」，添加以下应用：  
+     - Android 系统（`android`）  
+     - `com.samsung.android.sskds`  
+     - `com.android.settings`  
+2. 启用 VPN 规则模式：  
+   - 开启后即为全局 FCM 科学上网：  
+     - 国内 App 仍走国内网络，不消耗 VPN 流量和电量  
+     - 隐藏 Clash 通知即可实现无感出国  ，电量消耗一天约4%不到
 
-    
+---
+
+### FCM 相关域名及 IP  
+
     mtalk.google.com  108.250.10.188  
     mtalk4.google.com  
     mtalk-staging.google.com  
@@ -27,9 +50,9 @@
     alt8-mtalk.google.com  
 
 
-可通过LibChecker查看是否支持HMS Push / FCM  ，Libcheker请自行搜索下载
+### 可通过LibChecker查看是否支持HMS Push / FCM  ，Libcheker请自行搜索下载
 
-  —————————————HMS 华为推送——测试通过如下APP  可能随不同APP版本有出入—————————   
+  ### —————————————HMS 华为推送——测试通过如下APP  可能随不同APP版本有出入—————————   
     
     同花顺、富途牛牛、高德地图、百度地图、汽水音乐、QQ音乐（可能无法正常跳转）
     支付宝（可能无法正常跳转）、豆包、小红书、阿里云盘
@@ -44,7 +67,7 @@
     其他APP未测试过
 
 
-  —————————————FCM推送 ————————测试通过如下APP  可能随不同APP版本有出入，设置应用为优化—————————————————— 
+  ### FCM推送 ————————测试通过如下APP  可能随不同APP版本有出入 进入此APP设置应用为优化
 
     Telegram系、X、ChatGPT、Outlook、12306、Google系、小红书、知乎、微软系
     钉钉、Binance、OKX、Bitget、Play Store、Ins、Teams等明显国外的App
