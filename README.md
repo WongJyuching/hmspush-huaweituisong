@@ -9,7 +9,7 @@
 - Clash Meta 类工具  
 ### 安装如下APP-附件可下载
 - HMS Push
-- HMS Core
+- HMS Core   （附件NO-PATCHED-hmscore_161221.6.16.Original.apk为未修补，需要HMS Push首次打补丁！！！！ ； PATCHED-com.huawei.hwid_6.15.0.302-2.apk为已修补，不需要HMS Push再打补丁）
 - Lspatch
 - Shizuku
 
