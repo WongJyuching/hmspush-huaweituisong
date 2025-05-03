@@ -7,7 +7,11 @@
 - Clash  
 - Clash Verge  
 - Clash Meta 类工具  
-
+### 安装如下APP-附件可下载
+- HMS Push
+- HMS Core
+- Lspatch
+- Shizuku
 
 #### 方案1（规则模式）（以 Clash 为例）  
 1. 进入 Clash 设置  
