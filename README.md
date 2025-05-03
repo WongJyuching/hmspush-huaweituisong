@@ -9,7 +9,8 @@
           3️⃣添加完成后点击确认
 
 
-对三星OneUI5/6/7 1️⃣绕过国行FCM检测，额外点击设置————网络——访问控制模式（选择仅允许已选择的应用）————点击最下面访问控制应用包列表（搜索添加Android系统（android）、com.samsung.android.sskds、com.android.settings）三个软件————————开启VPN规则模式——————即可开启全局FCM 科学上网不断可一直连接外网FCM通知 国内应用可走国内网络不消耗VPN流量和电量 隐藏Clash通知可实现无感出国
+对三星OneUI5/6/7 1️⃣绕过国行FCM检测，额外点击设置————网络——访问控制模式（选择仅允许已选择的应用）————点击最下面访问控制应用包列表（搜索添加Android系统（android）、com.samsung.android.sskds、com.android.settings）三个软件———
+                 2️⃣—————开启VPN规则模式——————即可开启全局FCM 科学上网不断可一直连接外网FCM通知 国内应用可走国内网络不消耗VPN流量和电量 隐藏Clash通知可实现无感出国
 
     
     mtalk.google.com  108.250.10.188  
@@ -45,5 +46,6 @@
 
   —————————————FCM推送 ————————测试通过如下APP  可能随不同APP版本有出入，设置应用为优化—————————————————— 
 
-    Telegram系、X、ChatGPT、Outlook、12306、Google系、小红书、知乎、微软系、钉钉、Binance、OKX、Bitget、Play Store、Ins、Teams等明显国外的App
+    Telegram系、X、ChatGPT、Outlook、12306、Google系、小红书、知乎、微软系
+    钉钉、Binance、OKX、Bitget、Play Store、Ins、Teams等明显国外的App
 
